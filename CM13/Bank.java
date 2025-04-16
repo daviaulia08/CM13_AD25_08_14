@@ -8,7 +8,6 @@ public class Bank {
     String email;
 
     public Bank() {
-
     }
 
     public Bank(String norek, String nama, String namaIbu, String nohp, String email) {
