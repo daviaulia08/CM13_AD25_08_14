@@ -37,6 +37,7 @@ public class MainBank {
             switch (pilih) {
                 case 1:
                     System.out.printf("%-15s %-10s %-10s %-17s %-20s\n", "No Rekening", "Nama", "Nama Ibu", "Nohp", "email");
+
                     for (Bank b : BankAcc) {
                         b.tampilDataTransaksi();
                     }

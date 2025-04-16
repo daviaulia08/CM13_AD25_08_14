@@ -1,10 +1,9 @@
 package CM13;
-
-public class Tarnsaksi {
+public class Transaksi {
     String kodeTransaksi, norek, tanggal, tipe;
     double saldo, debitKredit, finalSaldo;
 
-    Tarnsaksi(String kodeTransaksi, String norek, double saldo, double debitKredit, double finalSaldo, String tanggal, String tipe) {
+    Transaksi(String kodeTransaksi, String norek, double saldo, double debitKredit, double finalSaldo, String tanggal, String tipe) {
         this.kodeTransaksi = kodeTransaksi;
         this.norek = norek;
         this.saldo = saldo;
@@ -19,5 +18,4 @@ public class Tarnsaksi {
             kodeTransaksi, norek, saldo, debitKredit, finalSaldo, tanggal, tipe);
     }
 }
-
 
