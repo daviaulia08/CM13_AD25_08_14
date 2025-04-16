@@ -43,7 +43,7 @@ public class MainBank {
                     System.out.println();
                     break;
                 case 2:
-                    service.hitungFinalSaldo(); // Otomatis hitung final saldo
+                    service.hitungFinalSaldo(); 
                     System.out.printf("%-10s %-15s %-10s %-13s %-12s %-15s %-10s\n",
                         "Kode", "No Rekening", "Saldo", "Debit/Kredit", "Final Saldo", "Tanggal Transaksi", "Type");
                     service.tampil();
