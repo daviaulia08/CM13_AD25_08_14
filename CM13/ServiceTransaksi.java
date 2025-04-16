@@ -1,6 +1,6 @@
 package CM13;
 
-[11.26, 16/4/2025] davi TI: public class ServiceTransaksi {
+public class ServiceTransaksi {
     Transaksi[] list;
     int idx;
 

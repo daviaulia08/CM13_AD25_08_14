@@ -1,3 +1,5 @@
+package CM13;
+
 import java.util.Scanner;
 
 public class MainBank {
@@ -39,7 +41,7 @@ public class MainBank {
                     System.out.printf("%-15s %-10s %-10s %-17s %-20s\n", "No Rekening", "Nama", "Nama Ibu", "Nohp", "email");
 
                     for (Bank b : BankAcc) {
-                        b.tampilDataTransaksi();
+                        b.tampilDataNorek();
                     }
                     System.out.println();
                     break;
