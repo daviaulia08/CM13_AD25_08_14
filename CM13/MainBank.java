@@ -6,7 +6,7 @@ public class MainBank {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        Bank[] BankAcc = {
+        Bank[] Nasabah = {
             new Bank("16030927", "Wallace", "Mei Mei", "082-458-264-3263", "wallace@gmail.com"),
             new Bank("16101617", "Darius", "Susanti", "081-357-843-0547", "darius@pt.org"),
             new Bank("16240401", "Fuller", "Rosalia", "085-556-712-7062", "fuller@mail.com"),
@@ -40,7 +40,7 @@ public class MainBank {
                 case 1:
                     System.out.printf("%-15s %-10s %-10s %-17s %-20s\n", "No Rekening", "Nama", "Nama Ibu", "Nohp", "email");
 
-                    for (Bank b : BankAcc) {
+                    for (Bank b : Nasabah) {
                         b.tampilDataNorek();
                     }
                     System.out.println();

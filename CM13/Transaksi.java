@@ -2,6 +2,7 @@ package CM13;
 public class Transaksi {
     String kodeTransaksi, norek, tanggal, tipe;
     double saldo, debitKredit, finalSaldo;
+    Bank BankAcc; 
 
     Transaksi(String kodeTransaksi, String norek, double saldo, double debitKredit, double finalSaldo, String tanggal, String tipe) {
         this.kodeTransaksi = kodeTransaksi;
