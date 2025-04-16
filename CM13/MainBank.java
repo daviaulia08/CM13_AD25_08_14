@@ -37,13 +37,13 @@ public class MainBank {
                 case 1 -> {
                     System.out.printf("%-15s %-10s %-10s %-17s %-20s\n", "No Rekening", "Nama", "Nama Ibu", "Nohp", "email");
                     for (Bank b : nasabah) {
-                        b.display();
+                        b.tampilDataNorek();
                     }
                 }
                 case 2 -> {
                     System.out.printf("%-10s %-15s %-10s %-13s %-12s %-15s %-10s\n",
                         "Kode", "No Rekening", "Saldo", "Debit/Kredit", "final Saldo", "Tanggal Transaksi", "Type");
-                    service.tampil();
+                    service.displayData();
                 }
                 case 3 -> {
                     System.out.print("Masukkan email yang dicari: ");
