@@ -15,7 +15,7 @@ public class ServiceTransaksi {
         }
     }
 
-    void tampil() {
+    void displayData() {
         for (int i = 0; i < idx; i++) {
             list[i].tampilDataTransaksi();
         }

@@ -49,7 +49,7 @@ public class MainBank {
                     service.hitungFinalSaldo(); 
                     System.out.printf("%-10s %-15s %-10s %-13s %-12s %-15s %-10s\n",
                         "Kode", "No Rekening", "Saldo", "Debit/Kredit", "Final Saldo", "Tanggal Transaksi", "Type");
-                    service.tampil();
+                    service.displayData();
                     System.out.println();
                     break;
                 case 3:
@@ -68,7 +68,7 @@ public class MainBank {
                     System.out.println("Data setelah diurutkan berdasarkan saldo akhir (ASC):");
                     System.out.printf("%-10s %-15s %-10s %-13s %-12s %-15s %-10s\n",
                         "Kode", "No Rekening", "Saldo", "Debit/Kredit", "Final Saldo", "Tanggal Transaksi", "Type");
-                    service.tampil();
+                    service.displayData();
                     System.out.println();
                     break;
             }
