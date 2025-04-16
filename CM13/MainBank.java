@@ -29,7 +29,7 @@ public class MainBank {
             System.out.println("4. Max Debit/Kredit");
             System.out.println("5. Sort by Final Saldo ASC");
             System.out.println("6. exit");
-            System.out.print("Chose Menu(1-6): ");
+            System.out.print("Pilih Menu(1-6): ");
             pilih = sc.nextInt();
             sc.nextLine();
 
