@@ -21,6 +21,5 @@ public class Bank {
 
     void tampilDataNorek() {
         System.out.printf("%-15s %-10s %-10s %-17s %-20s\n", norek, nama, namaIbu, nohp, email);
-        
     }
 }
