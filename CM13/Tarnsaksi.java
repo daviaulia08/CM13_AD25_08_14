@@ -4,7 +4,7 @@ public class Tarnsaksi {
     String kodeTransaksi, norek, tanggal, tipe;
     double saldo, debitKredit, finalSaldo;
 
-    Transaksi(String kodeTransaksi, String norek, double saldo, double debitKredit, double finalSaldo, String tanggal, String tipe) {
+    Tarnsaksi(String kodeTransaksi, String norek, double saldo, double debitKredit, double finalSaldo, String tanggal, String tipe) {
         this.kodeTransaksi = kodeTransaksi;
         this.norek = norek;
         this.saldo = saldo;
