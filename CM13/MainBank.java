@@ -55,7 +55,7 @@ public class MainBank {
                 case 3:
                     System.out.print("Masukkan email yang dicari: ");
                     String email = sc.nextLine();
-                    service.cariEmail(email, BankAcc);
+                    service.cariEmail(email, Nasabah);
                     System.out.println();
                     break;
                 case 4:
